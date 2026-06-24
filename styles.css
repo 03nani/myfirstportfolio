@@ -1,13 +1,13 @@
 /* CSS by Natalie Restrepo */
 /* Color Palette
-warm gray= #444143
-lighter gray= #A19E9D
-light gray= #E2E2DA
-white= #FAFCFF
-mint= #DCE8E7
+olive green=#59512A
+beige=#BFB49F
+tan=#8C7C69
+off white=#F2EADF
+brown=#403226
 */
 
 /* GLOBAL (base) MOBILE FIRST */
 body {
-    background-color:#DCE8E7;
+    background-color:#BFB49F;
 }
