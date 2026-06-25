@@ -3,11 +3,19 @@
 olive green=#59512A
 beige=#BFB49F
 tan=#8C7C69
-off white=#F2EADF
+off-white=#F2EADF
 brown=#403226
 */
 
-/* GLOBAL (base) MOBILE FIRST */
+/* GLOBAL STYLES (MOBILE FIRST) */
 body {
+    display:grid;
+    grid-template-columns: 1fr;
     background-color:#BFB49F;
+}
+@media screen and (min-width:600px) {
+    body {
+    grid-template-columns: 1fr 1fr;
+    background-color:#BFB49F;
+    }
 }
